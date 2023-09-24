@@ -7,7 +7,50 @@
 .navbar{
     background-color: #448FA3;
 }
+.navLogo{
+    display: flex;
+    align-items: center; 
+    gap: 3rem;
+    justify-content: center;
+    padding: 1rem 0;
+}
 .showData{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.showData2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 950px;
+    margin:1rem 0;
+    gap: 1rem;
+    justify-content: center;
+}
+.artPeace{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 5px black;
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+
+}
+.artPeace div{
+    padding: 1rem .5rem;
+    height: auto;
+}
+.artPeace img{
+    max-height: calc(100% - 50px);
+    max-width: 100%;
+    border-radius: 10px 10px 0 0;
+    object-fit:cover;
+}
+.parameters{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    padding:  1rem ;
 }
